@@ -1,0 +1,33 @@
+body {
+    font-family: "Roboto-Condensed";
+}
+
+@counter-style cupcakes {
+    system: cyclic;
+    symbols: "\1F9C1";
+    suffix: " ";
+  }
+
+  @counter-style it {
+    system: cyclic;
+    symbols: "\1F9C1";
+    suffix: " ";
+  }
+
+  @counter-style shop {
+    system: cyclic;
+    symbols: "\1F9C1";
+    suffix: " ";
+  }
+
+  li .it {
+    list-style-type: it;
+  }
+
+  li .cafe {
+    list-style-type: cupcakes;
+  }
+
+  li .shop {
+    list-style-type: shop;
+  }
