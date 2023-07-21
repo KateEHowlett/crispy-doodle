@@ -6,7 +6,7 @@
 
 @counter-style it {
   system: cyclic;
-  symbols: "\1F469";
+  symbols: "\1F5A5";
   suffix: " ";
 }
 
@@ -24,11 +24,24 @@ body {
 
 nav {
   display: flex;
-  flex-direction: row;
+}
+
+#navbar ul {
+    display: flex;
 }
 
 #navbar li {
     list-style: none;
+    background-color: #F7B538;
+    color: white;
+}
+
+#navbar li a {
+    color: white;
+}
+
+#navbar li a:hover {
+    background-color: #3CBBB1;
 }
 
 ul .it {
