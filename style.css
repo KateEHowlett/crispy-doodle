@@ -1,33 +1,38 @@
-body {
-    font-family: "Roboto-Condensed";
+@counter-style cupcakes {
+  system: cyclic;
+  symbols: "\1F9C1";
+  suffix: " ";
 }
 
-@counter-style cupcakes {
-    system: cyclic;
-    symbols: "\1F9C1";
-    suffix: " ";
-  }
+@counter-style it {
+  system: cyclic;
+  symbols: "\1F9C1";
+  suffix: " ";
+}
 
-  @counter-style it {
-    system: cyclic;
-    symbols: "\1F9C1";
-    suffix: " ";
-  }
+@counter-style shop {
+  system: cyclic;
+  symbols: "\1F9C1";
+  suffix: " ";
+}
 
-  @counter-style shop {
-    system: cyclic;
-    symbols: "\1F9C1";
-    suffix: " ";
-  }
+body {
+  font-family: "Roboto Condensed";
+  display:flex;
+}
 
-  ul .it {
-    list-style-type: it;
-  }
+nav {
+  display: flex;
+}
 
-  ul .cafe {
-    list-style-type: cupcakes;
-  }
+ul .it {
+  list-style-type: it;
+}
 
-  ul .shop {
-    list-style-type: shop;
-  }
+ul .cafe {
+  list-style-type: cupcakes;
+}
+
+ul .shop {
+  list-style-type: shop;
+}
