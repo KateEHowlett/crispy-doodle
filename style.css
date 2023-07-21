@@ -19,6 +19,7 @@
 body {
   font-family: "Roboto Condensed";
   display:flex;
+  flex-direction: column;;
 }
 
 nav {
