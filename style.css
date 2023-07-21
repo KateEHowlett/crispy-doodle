@@ -44,6 +44,14 @@ nav {
   font-size: 2rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #F7B538;
+  color: white;
+  font-size: 2rem;
+}
+
 #navbar ul {
     display: flex;
     margin: 0px;
@@ -112,7 +120,7 @@ main {
 footer {
     background-color: #E43F6F;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     color:white;
     text-align: center;
