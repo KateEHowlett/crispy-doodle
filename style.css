@@ -48,6 +48,8 @@ nav {
 }
 
 #navbar li:hover {
+    margin:0px;
+    padding:0px;
     background-color: #3CBBB1;
 }
 
@@ -94,12 +96,19 @@ footer ul {
     list-style-type: none;
     display:flex;
     justify-content:center;
+    margin: 16px;
+    align-items: center;
 }
 
-footer ul a {
+footer ul a a:visited{
     color: white;
 }
 
 footer ul a:hover {
     color: #F49D6E   
+}
+
+footer li {
+    margin: 5px;
+    padding: 5px;
 }
