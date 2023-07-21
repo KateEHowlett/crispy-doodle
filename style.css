@@ -112,7 +112,10 @@ a:hover {
 /** MAIN STYLING */
 
 main {
-    margin: 10px
+    display:flex;
+    align-self: center;
+    margin: 10px;
+    width: 75%
 }
 
 /** FOOTER STYLING */
