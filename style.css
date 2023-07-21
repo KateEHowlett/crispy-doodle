@@ -20,6 +20,7 @@ body {
   font-family: "Roboto Condensed";
   display:flex;
   flex-direction: column;
+  margin: 0px;
 }
 
 nav {
@@ -31,13 +32,19 @@ nav {
 
 #navbar ul {
     display: flex;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
+    align-items: stretch;
 }
 
 #navbar li {
     list-style: none;
     padding: 5px;
     margin: 3px;
+}
+
+#navbar li a {
+    color: white;
 }
 
 #navbar li:hover {
@@ -57,7 +64,13 @@ ul .shop {
 }
 
 a {
-    color: #4392f1
+    color: #4392f1;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+a:hover {
+    color:#E43F6F
 }
 
 a:visited {
@@ -66,4 +79,9 @@ a:visited {
 
 footer {
     background-color: #E43F6F;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color:white;
+    text-align: center;
 }
