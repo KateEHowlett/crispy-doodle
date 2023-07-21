@@ -24,16 +24,17 @@ body {
 
 nav {
   display: flex;
+  background-color: #F7B538;
+  color: white;
 }
 
 #navbar ul {
     display: flex;
+    padding: 5px;
 }
 
 #navbar li {
     list-style: none;
-    background-color: #F7B538;
-    color: white;
 }
 
 #navbar li a {
