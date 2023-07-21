@@ -6,13 +6,13 @@
 
 @counter-style it {
   system: cyclic;
-  symbols: "\1F9C1";
+  symbols: "\1F469";
   suffix: " ";
 }
 
 @counter-style shop {
   system: cyclic;
-  symbols: "\1F9C1";
+  symbols: "\1F33C";
   suffix: " ";
 }
 
@@ -24,6 +24,11 @@ body {
 
 nav {
   display: flex;
+  flex-direction: row;
+}
+
+#navbar li {
+    list-style: none;
 }
 
 ul .it {
