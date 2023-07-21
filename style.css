@@ -77,6 +77,10 @@ a:visited {
     color: #F49D6E
 }
 
+.codepen {
+    width: 30%;
+}
+
 footer {
     background-color: #E43F6F;
     width: 100%;
