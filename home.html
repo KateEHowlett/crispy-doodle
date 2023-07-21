@@ -11,7 +11,7 @@
     <title>Salixa's Work Site</title>
 </head>
 <body>
-    <nav id="navbar">
+    <nav id="navbar" class="autohide navbar navbar-expand-lg">
         <ul>
             <li><a href="home.html" aria-current="page">Home</a></li>
             <li><a href="bio.html">Bio</a></li>
@@ -20,12 +20,75 @@
         </ul>
     </nav>
     <main id="main">
-        <h1>Home Page</h1>
-        <p>Hello and welcome to my personal-work site!</p>
+        <div id="home">
+            <h1>Home Page</h1>
+            <p>Hello and welcome to my personal-work site!</p>
+        </div>
+        <div id="bio">
+            <h1>About Me</h1>
+            <p>Hi, I'm Kate, or Salixa in various places on the internet. I am currently doing a Software Engineering Apprenticeship with Multiverse
+                while working at the Norfolk County Council.
+            </p>
+            <p>I have a degree in Computer Science from Aberystwyth University but I graduated before JavaScript was cool so here I am, 
+                learning web code from scratch.</p>
+            <p>I thoroughly enjoy the design and UI aspects of web development but am excited to learn more about backend development and deployment.</p>
+        </div>
+        <div id="experience">
+            <h1>Experience</h1>
+            <p>Is experience not just bio and portfolio mixed together?</p>
+            <p>Perhaps.</p>
+            <p>But just in case you would like a CV type o' thang...</p>
+            <ul>
+                <li class="it">Currently employed by the Norfolk County Council as a Software Engineering Apprentice.</li>
+                <li class="it">Previously employed at NCC on a Service Desk (1st/2nd Line Support) Apprenticeship which I passed with Distinction in April.</li>
+                <li class="shop">Shop Assistant at House of Fraser</li>
+                <li class="shop">Shop Assistant at Notcutts Garden Centre, Norwich.</li>
+                <li class="shop">Shop Assistant at Scotsdale's Garden Centre, Cambridge.</li>
+                <li class="cafe">The Baguette Shop, Cromer.</li>
+                <li class="cafe">The Victorian Tea Rooms, Cromer.</li>
+                <li class="it">Junior SysAdmin at Torchbox, a web development and hosting company with a focus on NGOs and charities. Bristol.</li>
+                <li class="cafe">The Victorian Tea Rooms, Cromer.</li>
+                <li class="it">2nd Line Support/SysAdmin at LinuxIT, Bristol.</li>
+                <li class="it">1st/2nd Line Support at Sirius Corporation, London.</li>
+            </ul>
+        </div>
+        <div id="portfolio">
+            <h1>Portfolio</h1>
+            <div class="container">
+                <p>Before getting the hang of Netlify (literally this morning 21/07/23) I've been working through <a href="https://codepen.io/Salixa">codepen.io</a>.</p>
+                <p>You can see my work here:</p>
+            </div>
+            <div id="portfolio" class="row">
+                <div class="col">
+                    <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="abaxLZQ" data-user="Salixa" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Salixa/pen/abaxLZQ">
+                        Multiverse HTML Demo</a> by Kate (<a href="https://codepen.io/Salixa">@Salixa</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                    </p>
+                    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+                <div class="col">
+                    <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="MWzeeyW" data-user="Salixa" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Salixa/pen/MWzeeyW">
+                        D&amp;D Schedule V1.0</a> by Kate (<a href="https://codepen.io/Salixa">@Salixa</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                        </p>
+                        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+                <div class="col">
+                    <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="qBJOMGv" data-user="Salixa" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/Salixa/pen/qBJOMGv">
+                        K-Drama Generator!</a> by Kate (<a href="https://codepen.io/Salixa">@Salixa</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <ul>
-            <li>I DO NOT TRACK YOU &#128155;</li>
+            <li>I do not track you &#128155;</li>
             <li>
                 <a href="https://codepen.io/salixa">
                 <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30" height="30">
