@@ -6,7 +6,7 @@
 
 @counter-style it {
   system: cyclic;
-  symbols: "\1F5A5";
+  symbols: "\1F4BE";
   suffix: " ";
 }
 
@@ -24,6 +24,7 @@ body {
 
 nav {
   display: flex;
+  justify-content: center;
   background-color: #F7B538;
   color: white;
 }
@@ -35,13 +36,11 @@ nav {
 
 #navbar li {
     list-style: none;
+    padding: 5px;
+    margin: 3px;
 }
 
-#navbar li a {
-    color: white;
-}
-
-#navbar li a:hover {
+#navbar li:hover {
     background-color: #3CBBB1;
 }
 
@@ -55,4 +54,16 @@ ul .cafe {
 
 ul .shop {
   list-style-type: shop;
+}
+
+a {
+    color: #4392f1
+}
+
+a:visited {
+    color: #F49D6E
+}
+
+footer {
+    background-color: #E43F6F;
 }
