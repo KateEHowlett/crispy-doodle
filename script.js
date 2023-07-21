@@ -1,27 +1,21 @@
-document.addEventListener("DOMContentLoaded", function(){
+var lastScrollTop; // This Varibale will store the top position
 
-    el_autohide = document.querySelector('.autohide');
-    
-    // add padding-top to bady (if necessary)
-    navbar_height = document.querySelector('.navbar').offsetHeight;
-    document.body.style.paddingTop = navbar_height + 'px';
+navbar = document.getElementById('navbar'); // Get The NavBar
+
+window.addEventListener('scroll',function(){
+ //on every scroll this funtion will be called
   
-    if(el_autohide){
-      var last_scroll_top = 0;
-      window.addEventListener('scroll', function() {
-            let scroll_top = window.scrollY;
-           if(scroll_top < last_scroll_top) {
-                el_autohide.classList.remove('scrolled-down');
-                el_autohide.classList.add('scrolled-up');
-            }
-            else {
-                el_autohide.classList.remove('scrolled-up');
-                el_autohide.classList.add('scrolled-down');
-            }
-            last_scroll_top = scroll_top;
-      }); 
-      // window.addEventListener
-    }
-    // if
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  //This line will get the location on scroll
   
-  }); 
+  if(scrollTop > lastScrollTop){ //if it will be greater than the previous
+    navbar.style.top='-80px';
+    //set the value to the negetive of height of navbar 
+  }
+  
+  else{
+    navbar.style.top='0';
+  }
+  
+  lastScrollTop = scrollTop; //New Position Stored
+});

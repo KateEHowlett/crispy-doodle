@@ -44,14 +44,6 @@ nav {
   font-size: 2rem;
 }
 
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #F7B538;
-  color: white;
-  font-size: 2rem;
-}
-
 #navbar ul {
     display: flex;
     margin: 0px;
