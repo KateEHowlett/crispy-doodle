@@ -20,14 +20,14 @@ body {
     suffix: " ";
   }
 
-  li .it {
+  ul .it {
     list-style-type: it;
   }
 
-  li .cafe {
+  ul .cafe {
     list-style-type: cupcakes;
   }
 
-  li .shop {
+  ul .shop {
     list-style-type: shop;
   }
