@@ -25,7 +25,7 @@
 body {
   font-family: "Roboto Condensed";
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0px;
 }
 
@@ -38,6 +38,7 @@ h1 {
 
 nav {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: #F7B538;
   color: white;
@@ -46,6 +47,7 @@ nav {
 
 #navbar ul {
     display: flex;
+    flex-direction: column;
     margin: 0px;
     padding: 0px;
     align-items: stretch;
