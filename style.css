@@ -36,13 +36,22 @@ h1 {
 
 /** NAVIGATION STYLING */
 
+#navigation {
+    background-color: #F7B538;
+}
+
+#quote {
+    font-style: italic;
+    margin: 5px;
+}
+
 nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #F7B538;
-  color: white;
-  font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F7B538;
+    color: white;
+    font-size: 2rem;
 }
 
 #navbar ul {
@@ -80,6 +89,46 @@ ul .cafe {
 ul .shop {
   list-style-type: shop;
 }
+/** FOOTER STYLING */
+
+footer {
+    background-color: #E43F6F;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    color:white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 5px;
+    align-items: center;
+    font-variant: small-caps;
+}
+
+footer ul a {
+    color: white;
+}
+
+footer ul a:visited {
+    color: white;
+}
+
+footer ul a:hover {
+    color: #F49D6E;
+}
+
+footer li {
+    margin: 5px;
+    padding: 5px;
+}
+
+/** LINKS STYLING */
 
 a {
     color: #4392f1;
@@ -113,44 +162,4 @@ main {
     width: 75%
 }
 
-#quote {
-    font-style: italic;
-}
 
-/** FOOTER STYLING */
-
-footer {
-    background-color: #E43F6F;
-    width: 100%;
-    position: relative;
-    bottom: 0px;
-    color:white;
-    text-align: center;
-    font-size: 1rem;
-}
-
-footer ul {
-    list-style-type: none;
-    display:flex;
-    justify-content:center;
-    margin: 16px;
-    align-items: center;
-    font-variant: small-caps;
-}
-
-footer ul a {
-    color: white;
-}
-
-footer ul a:visited {
-    color: white;
-}
-
-footer ul a:hover {
-    color: #F49D6E;
-}
-
-footer li {
-    margin: 5px;
-    padding: 5px;
-}
